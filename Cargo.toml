@@ -1,0 +1,24 @@
+[package]
+name = "vnoi-cup-2025-l-tromino"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["bevy/dynamic_linking"]
+
+[[bin]]
+name = "bruteforce"
+path = "src/bruteforce.rs"
+
+[[bin]]
+name = "sub3"
+path = "src/sub3.rs"
+
+[[bin]]
+name = "vis"
+path = "src/main.rs"
+
+[dependencies]
+bevy = "0.16.0"
+rand_chacha = "0.9.0"
+
